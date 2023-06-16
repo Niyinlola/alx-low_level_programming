@@ -13,7 +13,6 @@ printf("Size of long long int: %lu byte(s)\n");
 printf("Size of float: %lu byte(s)\n");
 return (0);
 }
-#include <stdio.h>
 /**
  * main - Entry point for a 64bit machine
  *
