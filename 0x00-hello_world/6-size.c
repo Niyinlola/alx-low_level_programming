@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point for a 32bit machine
+ * main - Entry point for a 32bit and 64bit machine
  *
  * Return: 0 (Success)
  */
@@ -13,4 +13,3 @@ printf("Size of long long int: %lu byte(s)\n");
 printf("Size of float: %lu byte(s)\n");
 return (0);
 }
-~
