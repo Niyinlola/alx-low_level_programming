@@ -8,7 +8,7 @@
 int main(void)
 {
 	int num1 = '0';
-	int num2 = '0';
+	int num2 = '1';
 
 	while (num1 <= '8')
 	{
@@ -31,7 +31,7 @@ int main(void)
 			}
 			num2++;
 		}
-		num2 = '0';
+		num2 = num1 + '2';
 		num1++;
 	}
 return (0);
