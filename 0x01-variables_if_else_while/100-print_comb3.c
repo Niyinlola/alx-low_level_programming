@@ -10,7 +10,7 @@ int main(void)
 	int num1 = '0';
 	int num2 = '0';
 
-	while (num1 <= '9')
+	while (num1 <= '8')
 	{
 		while (num2 <= '9')
 		{
@@ -24,10 +24,10 @@ int main(void)
 					putchar('\n');
 				}
 				else
-					{
-						putchar(',');
-						putchar(' ');
-					}
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 			num2++;
 		}
