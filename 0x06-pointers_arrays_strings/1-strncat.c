@@ -5,6 +5,7 @@
  *@dest: input pointer to destination
  *@src: input pointer to source
  *@n: reads more bytes
+ *Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
