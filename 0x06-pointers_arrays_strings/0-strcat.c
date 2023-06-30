@@ -5,7 +5,7 @@
  * @src: input pointer to source
  * Return: pointer to dest
  */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 int a1, a2;
 
