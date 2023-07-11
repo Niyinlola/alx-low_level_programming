@@ -25,11 +25,12 @@ int main(void)
 		} else if (y == 1)
 		{
 			printf(" %d", y);
-		} else
-		{
-			printf(" %d", y);
 		}
 	}
+		else
+                {
+                        printf(" %d", y);
+                }
 
 	printf("\n");
 
