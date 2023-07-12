@@ -4,7 +4,6 @@
  * @dest: copy to this
  * @src: what we are to copy
  * @n: n bytes of @src
- *
  * Return: dest
  */
 
