@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 /**
  * _memset - constant byte function
  * @s: input
