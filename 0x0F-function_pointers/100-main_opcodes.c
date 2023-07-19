@@ -1,12 +1,11 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - prints its own upcodes function
  * @argc: argument counter
  * @argv: argument vector
- * Return: Always Successful
+ * Return: 0 (Successful)
  */
 int main(int argc, char *argv[])
 {
@@ -30,10 +29,12 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < byt; i++)
 	{
-		printf("%02x", p[i] & 0xFF);
-		if (i != byt - 1)
-			printf(" ");
+		if (i == byt -1)
+	{
+		printf("%02hhx\n", p[i]);
+		break;
 	}
-	printf("\n");
+		printf("%02hhx" p[i]);
+	}
 	return (0);
 }
